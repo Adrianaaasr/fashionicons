@@ -1,0 +1,22 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin: 15px;
+    border: 2px white solid;
+    text-align: center;
+}
+
+ul {
+    color: white;
+    margin: 15px;
+    border: 2px white solid;
+    text-align: center;
+}
