@@ -1,8 +1,9 @@
-let museum = new Museum();
-museum.initializeGallery();
+let icon = new Icon();
+icon.initializeGallery();
 
-const artPieces = museum.getPieces();
+const artPieces = icon.getPieces();
 
 function showInfoByClickButton(){
   alert( artPieces[0].getDescription() )
 };
+
