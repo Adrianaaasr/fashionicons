@@ -1,0 +1,39 @@
+*{
+	border: 10px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+h1 {
+	border: 15px black solid;
+	text-align: center;
+}
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.bloque h2{
+	margin-bottom: 40px;
+}
+.bloque h1{
+	text-align: center;
+	margin: 0;
+	font-size: 160px;
+	line-height: 600px;
+}
+.bloque p{
+	margin-bottom: 40px;
+	font-size: 16px;
+}
+.bloque.parallax{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.parallax.image-1{
+	background-image: url("img/ggg.jpg");
+}
